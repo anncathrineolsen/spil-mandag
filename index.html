@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indiana Jones</title>
+    <script src="main.js" defer></script>
+</head>
+<style>
+    body{
+        background-color: rgb(148, 117, 76);
+    }
+    .aligncenter {
+        text-align: center;
+        position: relative;
+        text-align: center;
+        font-weight:600;
+        font-size: 50px;
+        float: left;
+        margin-top: 0px;
+        margin-bottom: -184px;
+        margin-left: 130px;
+    }
+ canvas{
+     margin-top: 100px;
+ }
+    .pop-up{
+        z-index: 1;
+    }
+  #timer{
+    position: relative;
+    margin-right: 2px;
+    float: right;
+    margin-top: 130px;
+    margin-bottom: -300px;
+    margin-right: 190px;
+    text-align: center;
+    font-weight:600;
+    font-size: 30px;
+    }
+  #point{
+    position: relative;
+    margin-right: 2px;
+    float: right;
+    margin-top: 90px;
+    margin-bottom: -200px;
+    margin-right: 190px;
+    text-align: center;
+    font-weight:600;
+    font-size: 30px; 
+  }
+  #beskrivelse{
+    position: relative;
+    margin-right: 2px;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: -200px;
+    margin-right: 190px;
+    text-align: center;
+    font-weight:300;
+    font-size: 25px; 
+  }
+
+    </style>
+<body>
+    <p class="aligncenter">
+    <img src="india.png" alt="" srcset="" style="width: 700px;">
+    </p>
+    <p id="beskrivelse">Finde alle guldbarene på under 45 sek.</p>
+    <div id="timer">
+    </div>
+    <div id="point">
+    </div>
+    <center>
+        <canvas width="1200" height="650"></canvas>
+    </center>
+    <audio src="indijones.mp3" autoplay loop></audio>
+</body>
+</html>
+
+<!--
+    1. man skal kunne tabe
+    2. man skal kunne vinde
+    3. point, med eller uden php
+-->
